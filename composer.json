@@ -1,5 +1,5 @@
 {
-    "name": "liip/imagine-bundle",
+    "name": "onatera/imagine-bundle",
     "type": "symfony-bundle",
     "description": "This bundle provides an image manipulation abstraction toolkit for Symfony-based projects.",
     "keywords": [ "imagine", "image", "manipulation", "pictures", "photos", "transformation", "bundle", "symfony", "liip" ],
@@ -16,6 +16,9 @@
             "Liip\\ImagineBundle\\": ""
         },
         "exclude-from-classmap": [ "/Tests/" ]
+    },
+    "replace": {
+        "liip/imagine-bundle": "2.6"
     },
     "require": {
         "php": "^7.1|^8.0",
